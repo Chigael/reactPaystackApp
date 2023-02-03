@@ -11,7 +11,7 @@ const Payment = () => {
   const [lastname, setLastname] = useState("");
   const [payresult, setPayresult] = useState(""); 
 
-const url=`https://paystackpayment.ornan.repl.co/paystack?amount=${amount*100}&email=${email}`;
+const url=`https://paystackpaymentapibackend.onrender.com/paystack?amount=${amount*100}&email=${email}`;
 
   // const form = new FormData();
   // form.append('email',email)
